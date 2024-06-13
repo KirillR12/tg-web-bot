@@ -38,15 +38,15 @@ useEffect(() => {
 
   const btnCard1 = useCallback(() => {
     setSeconds1(60)
-  }, [seconds1])
+  }, [])
   
   const btnCard2 = useCallback(() => {
     setSeconds2(60)
-  }, [seconds2])
+  }, [])
 
   const btnCard3 = useCallback(() => {
     setSeconds3(60)
-  }, [seconds3])
+  }, [])
 
 const actionBtn = useCallback(() => {
   setBtnAction(true)
